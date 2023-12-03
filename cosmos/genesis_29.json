@@ -2,7 +2,7 @@
   "rpc": "https://26657.genesisl1.org/",
   "rest": "https://api.genesisl1.org/",
   "chainId": "genesis_29-2",
-  "chainName": "GenesisL1",
+  "chainName": "Genesis L1",
   "chainSymbolImageUrl": "https://raw.githubusercontent.com/alpha-omega-labs/genesisd/neolithic/L1.png",
   "stakeCurrency": {
     "coinDenom": "L1",
@@ -44,5 +44,10 @@
   "features": [
     "eth-address-gen",
     "eth-key-sign"
-  ]
+  ],
+  "nodeProvider": {
+    "name": "Genesis L1",
+    "email": "info@genesisl1.com",
+    "website":"https://genesisl1.com/"
+  },
 }
